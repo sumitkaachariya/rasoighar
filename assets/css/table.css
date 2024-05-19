@@ -1,0 +1,42 @@
+.all-table-list .card-body {
+    padding: 20px;
+}
+.main-table-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    margin-top: 20px;
+}
+.table-list {
+	flex: 0 0 25%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.table-item{
+	background: rgba(24, 142, 78, 7%);
+	padding: 15px;
+    border-radius: 10px;
+}
+.table-item label{
+	color: #000;
+}
+.table-item a{
+	display: block;
+	width: auto;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.table-list {
+    	flex: 0 0 50%;
+    }
+}
+@media only screen and (max-width: 767px) {
+	.table-list {
+    	flex: 0 0 100%;
+    }	
+}

@@ -1,0 +1,41 @@
+.template-login {
+    background-color: rgba(24, 142, 78, 7%);
+}
+.logo{
+    margin-bottom: 20px;
+}
+.login-page {
+    max-width: 700px;
+    margin: auto;
+    padding: 6% 0;
+}
+.login-page .card-body {
+    padding: 60px;
+}
+.login-btn{
+	max-width: 256px;	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.login-page{
+		max-width: 650px;
+		padding: 13% 0;
+	}
+}
+
+/* For Desktops */
+@media only screen and (min-width: 1024px) {
+}
+
+/* For Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* For Mobile Devices */
+@media only screen and (max-width: 767px) {
+ 	.login-page{
+		max-width: 100%;
+		padding: 16% 32px;
+	}
+}
