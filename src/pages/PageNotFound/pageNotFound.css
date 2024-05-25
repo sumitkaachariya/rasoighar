@@ -1,0 +1,13 @@
+.page_not_found_section{
+    max-height: initial;
+}
+.page_not_found{
+    max-width: 53%;
+    margin: 0 auto;
+}
+@media screen and (max-width:991px){
+    .page_not_found {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
