@@ -344,7 +344,10 @@ nav.nav-bar ul li:hover:before {
 
 .pop-up-content-wrap {
    margin-top: 20px;
-   margin-bottom: 20px;
+   margin-bottom: 0px;
+   padding: 1rem 0;
+   overflow-y: auto; 
+   max-height: 60vh;
 }
 
 .heding h4 {
@@ -366,6 +369,7 @@ nav.nav-bar ul li:hover:before {
    vertical-align: middle;
    width: 600px;
    margin: 30px auto;
+   max-height: calc(100vh - 70px);
    max-width: 97%;
 }
 
@@ -386,8 +390,6 @@ nav.nav-bar ul li:hover:before {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
-   max-height: calc(100vh - 70px);
-   overflow-y: auto;
 }
 
 .model-open .custom-model-inner {
@@ -440,7 +442,7 @@ nav.nav-bar ul li:hover:before {
 .custom-model-inner .button-group button {
    flex: 0 1 0;
    padding: 12px 30px;
-}
+} 
 .mobile-menu-bar {
    display: none;
 }
@@ -460,6 +462,7 @@ nav.nav-bar ul li:hover:before {
    .custom-model-inner {
       margin-top: 45px;
    }
+   .model-open .custom-model-inner{    transform: translate(0, 149px);}
 }
 
 @media only screen and (max-width: 767px) {
