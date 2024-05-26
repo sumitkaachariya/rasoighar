@@ -50,22 +50,22 @@ a {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 4px;
+   width: 4px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+   background: #f1f1f1;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #000;
+   background: #000;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #188e4e;
+   background: #188e4e;
 }
 
 .card {
@@ -289,6 +289,9 @@ nav.nav-bar ul li:hover:before {
   align-items:center;
   height:100vh;
 }*/
+.is-open-modal aside.rasoi-side-bar {
+   z-index: 0;
+}
 .Click-here {
    cursor: pointer;
    background-image: linear-gradient(190deg, #f83600 0%, #fee140 100%);
@@ -425,6 +428,7 @@ nav.nav-bar ul li:hover:before {
    border-radius: 75%;
    color: #fff;
    font-size: 14px;
+   cursor: pointer;
 }
 
 .custom-model-inner .button-group {

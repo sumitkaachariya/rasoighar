@@ -81,19 +81,19 @@ function Tables() {
                onClose={() => {
                   setOpenTableModal(false)
                }}>
-               <div class="form">
-                  <div class="form-group">
-                     <label for="formtableName">Table Name/ Table No: </label>
+               <div className="form">
+                  <div className="form-group">
+                     <label htmlFor="formtableName">Table Name/ Table No: </label>
                      <input
-                        class="form-control"
+                        className="form-control"
                         type="text"
                         name="email"
                         id="formtableName"
                         placeholder="Ex. Table 1"
                      />
                   </div>
-                  <div class="button-group text-center">
-                     <button type="button" name="login" class="btn btn-success save-btn">
+                  <div className="button-group text-center">
+                     <button type="button" name="login" className="btn btn-success save-btn">
                         save
                      </button>
                   </div>
