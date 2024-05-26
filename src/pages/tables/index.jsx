@@ -92,6 +92,106 @@ function Tables() {
                         placeholder="Ex. Table 1"
                      />
                   </div>
+                  <div className="form-group">
+                     <label htmlFor="formtableName">Table Name/ Table No: </label>
+                     <input
+                        className="form-control"
+                        type="text"
+                        name="email"
+                        id="formtableName"
+                        placeholder="Ex. Table 1"
+                     />
+                  </div>
+                  <div className="form-group">
+                     <label htmlFor="formtableName">Table Name/ Table No: </label>
+                     <input
+                        className="form-control"
+                        type="text"
+                        name="email"
+                        id="formtableName"
+                        placeholder="Ex. Table 1"
+                     />
+                  </div>
+                  <div className="form-group">
+                     <label htmlFor="formtableName">Table Name/ Table No: </label>
+                     <input
+                        className="form-control"
+                        type="text"
+                        name="email"
+                        id="formtableName"
+                        placeholder="Ex. Table 1"
+                     />
+                  </div>
+                  <div className="form-group">
+                     <label htmlFor="formtableName">Table Name/ Table No: </label>
+                     <input
+                        className="form-control"
+                        type="text"
+                        name="email"
+                        id="formtableName"
+                        placeholder="Ex. Table 1"
+                     />
+                  </div>
+                  <div className="form-group">
+                     <label htmlFor="formtableName">Table Name/ Table No: </label>
+                     <input
+                        className="form-control"
+                        type="text"
+                        name="email"
+                        id="formtableName"
+                        placeholder="Ex. Table 1"
+                     />
+                  </div>
+                  <div className="form-group">
+                     <label htmlFor="formtableName">Table Name/ Table No: </label>
+                     <input
+                        className="form-control"
+                        type="text"
+                        name="email"
+                        id="formtableName"
+                        placeholder="Ex. Table 1"
+                     />
+                  </div>
+                  <div className="form-group">
+                     <label htmlFor="formtableName">Table Name/ Table No: </label>
+                     <input
+                        className="form-control"
+                        type="text"
+                        name="email"
+                        id="formtableName"
+                        placeholder="Ex. Table 1"
+                     />
+                  </div>
+                  <div className="form-group">
+                     <label htmlFor="formtableName">Table Name/ Table No: </label>
+                     <input
+                        className="form-control"
+                        type="text"
+                        name="email"
+                        id="formtableName"
+                        placeholder="Ex. Table 1"
+                     />
+                  </div>
+                  <div className="form-group">
+                     <label htmlFor="formtableName">Table Name/ Table No: </label>
+                     <input
+                        className="form-control"
+                        type="text"
+                        name="email"
+                        id="formtableName"
+                        placeholder="Ex. Table 1"
+                     />
+                  </div>
+                  <div className="form-group">
+                     <label htmlFor="formtableName">Table Name/ Table No: </label>
+                     <input
+                        className="form-control"
+                        type="text"
+                        name="email"
+                        id="formtableName"
+                        placeholder="Ex. Table 1"
+                     />
+                  </div>
                   <div className="button-group text-center">
                      <button type="button" name="login" className="btn btn-success save-btn">
                         save

@@ -1,13 +1,13 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
 
 @font-face {
-   font-family: 'neutraface text', Sans-serif;
+   font-family: 'neutraface text';
    /* src: url('../font/neutraface/Neutraface Text Book.otf'); */
-   src: url('./assets/font/neutraface/Neutraface Text Book.otf');
+   src: url(./assets/font/neutraface/NeutrafaceTextBook.otf);
 }
 
 body {
-   font-family: 'neutraface text', Sans-serif;
+   font-family: 'neutraface text';
    margin: 0;
    padding: 0;
 }
@@ -346,7 +346,7 @@ nav.nav-bar ul li:hover:before {
    margin-top: 20px;
    margin-bottom: 0px;
    padding: 1rem 0;
-   overflow-y: auto; 
+   overflow-y: auto;
    max-height: 60vh;
 }
 
@@ -442,7 +442,7 @@ nav.nav-bar ul li:hover:before {
 .custom-model-inner .button-group button {
    flex: 0 1 0;
    padding: 12px 30px;
-} 
+}
 .mobile-menu-bar {
    display: none;
 }
@@ -462,7 +462,7 @@ nav.nav-bar ul li:hover:before {
    .custom-model-inner {
       margin-top: 45px;
    }
-   .model-open .custom-model-inner{    transform: translate(0, 149px);}
+   /* .model-open .custom-model-inner{    transform: translate(0, 149px);} */
 }
 
 @media only screen and (max-width: 767px) {
