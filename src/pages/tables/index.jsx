@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './table.css'
-import { RGModal } from 'components'
+import { Card, RGModal } from 'components'
 
 function Tables() {
    const [openTableModal, setOpenTableModal] = useState(false)
@@ -27,52 +27,54 @@ function Tables() {
          </div>
          <div className="content">
             <div className="all-table-list">
-               <div className="card">
-                  <div className="card-body">
-                     <div className="main-table-list">
-                        <div className="table-list">
-                           <div className="table-item">
-                              <label>Table 1</label>
-                              <a href="#" className="btn btn-success">
-                                 view
-                              </a>
-                           </div>
+               {/* <div className="card">
+                  <div className="card-body"> */}
+               <Card>
+                  <div className="main-table-list">
+                     <div className="table-list">
+                        <div className="table-item">
+                           <label>Table 1</label>
+                           <a href="#" className="btn btn-success">
+                              view
+                           </a>
                         </div>
-                        <div className="table-list">
-                           <div className="table-item">
-                              <label>Table 1</label>
-                              <a href="#" className="btn btn-success">
-                                 view
-                              </a>
-                           </div>
+                     </div>
+                     <div className="table-list">
+                        <div className="table-item">
+                           <label>Table 1</label>
+                           <a href="#" className="btn btn-success">
+                              view
+                           </a>
                         </div>
-                        <div className="table-list">
-                           <div className="table-item">
-                              <label>Table 1</label>
-                              <a href="#" className="btn btn-success">
-                                 view
-                              </a>
-                           </div>
+                     </div>
+                     <div className="table-list">
+                        <div className="table-item">
+                           <label>Table 1</label>
+                           <a href="#" className="btn btn-success">
+                              view
+                           </a>
                         </div>
-                        <div className="table-list">
-                           <div className="table-item">
-                              <label>Table 1</label>
-                              <a href="#" className="btn btn-success">
-                                 view
-                              </a>
-                           </div>
+                     </div>
+                     <div className="table-list">
+                        <div className="table-item">
+                           <label>Table 1</label>
+                           <a href="#" className="btn btn-success">
+                              view
+                           </a>
                         </div>
-                        <div className="table-list">
-                           <div className="table-item">
-                              <label>Table 1</label>
-                              <a href="#" className="btn btn-success">
-                                 view
-                              </a>
-                           </div>
+                     </div>
+                     <div className="table-list">
+                        <div className="table-item">
+                           <label>Table 1</label>
+                           <a href="#" className="btn btn-success">
+                              view
+                           </a>
                         </div>
                      </div>
                   </div>
-               </div>
+               </Card>
+               {/* </div>
+               </div> */}
             </div>
          </div>
          {openTableModal && (

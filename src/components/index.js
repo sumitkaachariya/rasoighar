@@ -1,3 +1,4 @@
 import RGModal from './Modal'
+import Card from './Card'
 
-export { RGModal }
+export { RGModal, Card }
