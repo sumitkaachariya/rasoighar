@@ -28,10 +28,5 @@ export const menuItems = [
       name: 'orders',
       path: '/orders',
       faIcon: 'fa-solid fa-utensils'
-   },
-   {
-      name: 'logout',
-      path: '/logout',
-      faIcon: 'fa-solid fa-right-from-bracket'
    }
 ]
